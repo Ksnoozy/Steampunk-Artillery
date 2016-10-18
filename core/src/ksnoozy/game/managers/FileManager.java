@@ -13,6 +13,7 @@ public class FileManager {
 
         getAssets("tank", Texture.class);
         getAssets("Fireworks", Texture.class);
+        getAssets("Cube", Texture.class);
     }
 
     private void getAssets(String folder, Class type) {
