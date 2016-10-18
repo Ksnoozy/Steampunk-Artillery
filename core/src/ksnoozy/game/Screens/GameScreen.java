@@ -23,7 +23,7 @@ public class GameScreen extends AbstractScreen {
     @Override
     public void show() {
         for (float x = 0; x < Gdx.graphics.getWidth(); x++){
-            for (float y = 0; y < 50 + MathUtils.sin(x / 100 ) * 10; y++){
+            for (float y = 0; y < 250 + MathUtils.sin(x / 100 ) * 100; y++){
                 land.add(new LandCube(app, x, y, 1, 1));
             }
         }
